@@ -1,4 +1,4 @@
-package com.sobbspt.eventsourcing.sku.command.Model;
+package com.sobbspt.eventsourcing.sku.command.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,4 +1,4 @@
-package com.sobbspt.eventsourcing.sku.command.Model;
+package com.sobbspt.eventsourcing.sku.command.model;
 
 import lombok.Data;
 import org.springframework.http.HttpEntity;
