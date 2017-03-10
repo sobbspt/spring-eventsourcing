@@ -11,7 +11,10 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    runtime group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
     compile("org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:1.5.2.RELEASE")
     compile group: 'org.projectlombok', name: 'lombok', version: '1.16.14'
     compile group: 'com.github.msemys', name: 'esjc', version: '1.7.0'
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '2.6.0'
 }
